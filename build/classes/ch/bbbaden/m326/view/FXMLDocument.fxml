@@ -10,7 +10,7 @@
     <children>
       <ImageView fitHeight="509.0" fitWidth="823.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../recources/img/12-game-background-mesh-cloud.jpg" />
+            <Image url="@../img/background.jpg" />
          </image>
       </ImageView>
         

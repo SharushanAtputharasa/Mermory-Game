@@ -37,21 +37,7 @@ public class FXMLDocumentController implements Initializable, Runnable {
     @FXML
     private Button button;
     @FXML
-    private Label card1;
-    @FXML
-    private Label card2;
-    @FXML
-    private Label card3;
-    @FXML
-    private Label card4;
-    @FXML
-    private Label card5;
-    @FXML
-    private Label card6;
-    @FXML
-    private Label card7;
-    @FXML
-    private Label card8;
+    private Label card1, card2, card3, card4, card5, card6, card7, card8;
 
     private int firstCard = 9;
     private int secondCard = 9;

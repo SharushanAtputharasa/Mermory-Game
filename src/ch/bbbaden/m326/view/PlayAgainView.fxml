@@ -11,7 +11,7 @@
    <children>
       <ImageView fitHeight="382.0" fitWidth="604.0" layoutX="-3.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../recources/img/12-game-background-mesh-cloud.jpg" />
+            <Image url="@../img/background.jpg" />
          </image>
       </ImageView>
       <Label layoutX="208.0" layoutY="70.0" text="You won!" textFill="#071775">
