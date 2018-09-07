@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="480.0" prefWidth="823.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ch.bbbaden.m326.view.FXMLDocumentController">
+    <children>
+      <ImageView fitHeight="509.0" fitWidth="823.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../recources/img/12-game-background-mesh-cloud.jpg" />
+         </image>
+      </ImageView>
+        
+      <Label fx:id="card1" layoutX="113.0" layoutY="142.0" onMouseClicked="#color" prefHeight="150.0" prefWidth="150.0" style="-fx-background-color:#FFFFFF; -fx-border-color: #000000; -fx-border-width: 2" />
+      <Label fx:id="card2" layoutX="263.0" layoutY="142.0" onMouseClicked="#color" prefHeight="150.0" prefWidth="150.0" style="-fx-background-color:#FFFFFF; -fx-border-color: #000000; -fx-border-width: 2" />
+      <Label fx:id="card3" layoutX="413.0" layoutY="142.0" onMouseClicked="#color" prefHeight="150.0" prefWidth="150.0" style="-fx-background-color:#FFFFFF; -fx-border-color: #000000; -fx-border-width: 2" />
+      <Label fx:id="card4" layoutX="560.0" layoutY="142.0" onMouseClicked="#color" prefHeight="150.0" prefWidth="150.0" style="-fx-background-color:#FFFFFF; -fx-border-color: #000000; -fx-border-width: 2" />
+      <Label fx:id="card5" layoutX="113.0" layoutY="292.0" onMouseClicked="#color" prefHeight="150.0" prefWidth="150.0" style="-fx-background-color:#FFFFFF; -fx-border-color: #000000; -fx-border-width: 2" />
+      <Label fx:id="card6" layoutX="263.0" layoutY="292.0" onMouseClicked="#color" prefHeight="150.0" prefWidth="150.0" style="-fx-background-color:#FFFFFF; -fx-border-color: #000000; -fx-border-width: 2" />
+      <Label fx:id="card7" layoutX="413.0" layoutY="292.0" onMouseClicked="#color" prefHeight="150.0" prefWidth="150.0" style="-fx-background-color:#FFFFFF; -fx-border-color: #000000; -fx-border-width: 2" />
+      <Label fx:id="card8" layoutX="560.0" layoutY="292.0" onMouseClicked="#color" prefHeight="150.0" prefWidth="150.0" style="-fx-background-color:#FFFFFF; -fx-border-color: #000000; -fx-border-width: 2" />
+      <Label layoutX="283.0" layoutY="46.0" text="test your memory" textFill="#22175e">
+         <font>
+            <Font name="System Bold" size="31.0" />
+         </font>
+      </Label>
+    </children>
+</AnchorPane>
